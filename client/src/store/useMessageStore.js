@@ -7,7 +7,6 @@ import { useAuthStore } from "./useAuthStore";
 export const useMessageStore = create((set) => ({
 	messages: [],
 	loading: true,
-
 	sendMessage: async (receiverId, content) => {
 		try {
 			// mockup a message, show it in the chat immediately
